@@ -5,7 +5,7 @@ let states;
 
 //get states
 const getStates = async () => {
-const res = await fetch('../data/states.json');
+const res = await fetch('states.json');
 states = await res.json();
 };
 
